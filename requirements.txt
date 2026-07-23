@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+torch
+torchvision
+pillow
+numpy
+pandas
+scikit-learn
+grad-cam
+sqlalchemy
+groq
+python-dotenv
