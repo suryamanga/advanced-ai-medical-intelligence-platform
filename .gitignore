@@ -66,7 +66,9 @@ desktop.ini
 # MACHINE LEARNING MODEL FILES
 # ============================================================
 
-*.pth
+# .pth files are intentionally NOT ignored
+# because the trained model is required for deployment.
+
 *.pt
 *.pkl
 *.joblib
@@ -113,18 +115,3 @@ backend/llm/reports/*
 # ============================================================
 
 .streamlit/secrets.toml
-
-# ============================================================
-# MACHINE LEARNING MODEL FILES
-# ============================================================
-
-*.pt
-*.pkl
-*.joblib
-
-
-# ============================================================
-# DATASET
-# ============================================================
-
-data/chest_xray/
