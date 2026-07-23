@@ -118,7 +118,6 @@ backend/llm/reports/*
 # MACHINE LEARNING MODEL FILES
 # ============================================================
 
-*.pth
 *.pt
 *.pkl
 *.joblib
